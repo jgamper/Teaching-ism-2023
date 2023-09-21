@@ -15,14 +15,21 @@ Hypothetical example - in the medical care system, when we have a model, which c
 
 4. What is git? Describe the most often used git commands?
 It is a powerful, fast and free version control system, which allows to do small and bigger projects and also allows programmers to collaborate and allow them to make changes without interfering in each other's work. 
-
+Git commands:
+    1. git clone - creates a copy of a Git repository.
+    2. git status - shows the status of work directory.
+    3. git commit - record changes.
+    4. git branch - lists all branches in repository.
+    5. git push - pushes your commits to a remote repository, to keep the changes.
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 
 6. Explain what a vector norm is?
+It is kind of measure to know how big or small the vectors is and there are different norms of vectors. In the reading there were mentioned mostly two - Manhattan Norm and Euclidean distance norm. The Manhattan norm measures vector in the space of grid - you can only measure it going along the lines and with Eucliden distance - it is the smallest possible distance. 
 
 7. What role does chain rule play in automatic differentiation? Why automatic differentiation is important for modern AI
 models?
+Without the chain rule it would be quite difficult, because we are working with deeply nested functions and chain rule allows us to break down the computation of derivatives into the series of elementary operations. Moreover, the chain rule allows deep learning models to learn from data by adjusting their parameters and minimizing a loss function.
 
 8. Write the equation for a standard linear model in vector notation?
 
