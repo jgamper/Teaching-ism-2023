@@ -1,12 +1,21 @@
 Please copy the file and rename it as FirstName_LastName_Test.md. Raise a pull request with this file (with answers) added to the repository. 
 
 1. What does cold start problem mean in Machine Learning in practice? How does it examplify in book?
+It means, that some product can be not good yet, because there is not enough information and there are no enough tests done, to say if the product, system can be reliable and sucessful. In the book they mention the problem with the accomodation: people cannot keep up with the new conditions, also as they travel not often they can have different preferences every year, as they for example grow up, create family or grow old, so it is hard to create the best model for every user to satisfy them. 
 
 2. What is the most reliable way to demonstrate a return on investment of a machine learning system?
+A/B testing.
 
 3. What are the 4 reasons for lack of correlation between offline performance gain and business value gain? Make up a hypothetical example - name concrete offline metrics, and business metrics. 
+    1. The offline metrics are made for the theoretical performance and not all people in the economy are homo economus. 
+    2. It can be overfitting - it will work well in theoretical matter, but fail to adapt if there are some unseen factors. 
+    3. Also, the training data can miss some of the segments and not including them means that for this area the model will not perform good.
+    4. Users can adapt to the new decision and then their behaviour would change - that means the model will not fully measure the performance.
+Hypothetical example - in the medical care system, when we have a model, which can detect the disease this situation may occur. The model can be too conservative and lead to many missed diagnosis in order to, as much as possible, avoid the false diagnosis, when the patient gets a positive result, when there is no disease. Then the accuracy of the model is really high, but it is not good in the business matter as the patients get false positive results and then get additional stress, more tests need to be done and it overall damages the image of the medical institution. 
 
 4. What is git? Describe the most often used git commands?
+It is a powerful, fast and free version control system, which allows to do small and bigger projects and also allows programmers to collaborate and allow them to make changes without interfering in each other's work. 
+
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 
