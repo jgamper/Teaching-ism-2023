@@ -64,5 +64,4 @@ y
 ​
   
 i
-​
- ) This formula is often used in clasiffication problems. It measures the dissimilarity between the predicted probability distribution and the true probability distribution of the target variable. 
+) This formula is often used in clasiffication problems. It measures the dissimilarity between the predicted probability distribution and the true probability distribution of the target variable. 
