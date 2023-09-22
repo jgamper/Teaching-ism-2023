@@ -30,7 +30,7 @@ Most often used commands: checkout (switches between branches or commits), clone
 
 The dot product of these two vectors is the sum over products of the elements (in the x and y vectors) at the same position. 
 
-$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_i y_i
+$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_i y_i$
 
 6. Explain what a vector norm is? 
 
@@ -45,11 +45,11 @@ Automatic differentiation is important because it makes derivative calculations 
 
 8. Write the equation for a standard linear model in vector notation?
 
-\mathbf{y} = \mathbf{X} \mathbf{w} + b
+$\mathbf{y} = \mathbf{X} \mathbf{w} + b$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
-p(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}
+$p(x) = \frac{1}{\sigma \sqrt{2\pi}} \cdot e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^2}$
 
 Examples: birthweight of newborn babies, height of adults, shoe sizes, scores of standardized tests like SAT, blood pressure, etc.
 
@@ -59,7 +59,7 @@ It is basically a cost function that operates as a loss function in ML, so that'
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
 
-L(\mathbf{y}, \mathbf{t}) = -\sum_{i=1}^{C} \mathbf{t}_i \cdot \log(\mathbf{y}_i)
+$L(\mathbf{y}, \mathbf{t}) = -\sum_{i=1}^{C} \mathbf{t}_i \cdot \log(\mathbf{y}_i)$
 
-Cross-entropy is used in classification tasks to measure the accuracy of a model's performance by defining the difference between the estimated probability and an actual label. It serves as the objective function that the optimization algorithm tries to minimize. y represents the vector of predicted probabilities and t represents the vector of actual labels.
+Cross-entropy is used in classification tasks to measure the accuracy of a model's performance by defining the difference between the estimated probability and an actual label. It serves as the objective function that the optimization algorithm tries to minimize. y represents the vector of predicted probabilities and t represents the vector of actual labels. 
 
