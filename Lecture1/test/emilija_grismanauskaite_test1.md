@@ -39,8 +39,8 @@ $\mathbf{y} = \mathbf{X}\mathbf{\beta} + \mathbf{\varepsilon}$
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 $f(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$
 The examples could maybe be the heights and weights of the population, exam scores maybe. 
-
 10. Describe what a negative log likelihood is?
 Likelihood is how well the model explains given data and the logarithm can be used to simplify information and make it easier to use and interpret. So the negative log likelihood is the negative measure of how well the model explains statistics, given that the data is logarithmic. Also, minimizing this measure means finding the best parameters that can explain the data in the best possible way. 
-
 11. Write down the formula for cross-entropy loss and explain how it is used?
+$H(y, \hat{y}) = -\sum_{i} (y_i \log(\hat{y}_i))$
+It explains. 
