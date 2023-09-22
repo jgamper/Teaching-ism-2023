@@ -30,7 +30,7 @@ Most often used commands: checkout (switches between branches or commits), clone
 
 The dot product of these two vectors is the sum over products of the elements (in the x and y vectors) at the same position. 
 
-$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_i y_i$
+$$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_iy_i$$
 
 6. Explain what a vector norm is? 
 
@@ -59,7 +59,7 @@ It is basically a cost function that operates as a loss function in ML, so that'
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
 
-$L(\mathbf{y}, \mathbf{t}) = -\sum_{i=1}^{C} \mathbf{t}_i \cdot \log(\mathbf{y}_i)$
+$$L(\mathbf{y}, \mathbf{t}) = -\sum_{i=1}^{C} \mathbf{t}_i \cdot \log(\mathbf{y}_i)$$
 
 Cross-entropy is used in classification tasks to measure the accuracy of a model's performance by defining the difference between the estimated probability and an actual label. It serves as the objective function that the optimization algorithm tries to minimize. y represents the vector of predicted probabilities and t represents the vector of actual labels. 
 
