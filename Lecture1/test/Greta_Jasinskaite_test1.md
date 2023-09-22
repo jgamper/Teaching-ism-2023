@@ -54,14 +54,7 @@ The negative log likelihood is used to estimate the parameters of a logistic reg
 −∑ 
 i=1
 C
-​
  y 
-i
-​
- ⋅log( 
-y
-^
-​
-  
-i
-) This formula is often used in clasiffication problems. It measures the dissimilarity between the predicted probability distribution and the true probability distribution of the target variable. 
+i*log(y^i) 
+ 
+ This formula is often used in clasiffication problems. It measures the dissimilarity between the predicted probability distribution and the true probability distribution of the target variable. 
