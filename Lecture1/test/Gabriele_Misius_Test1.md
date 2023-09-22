@@ -22,7 +22,7 @@ Hypothetical example: in social media, the # of likes could be an offline metric
 
 4. What is git? Describe the most often used git commands?
 
-According to git's website, it is a version control system that records changes to a file or set of files over time so that you can recall specific versions later. This is a useful technique for people to collaborate on various projects and trace all the changes that each person made.
+It is a version control system that records changes to a file or set of files over time so that you can recall specific versions later. This is a useful technique for people to collaborate on various projects and trace all the changes that each person made.
 
 Most often used commands: checkout (switches between branches or commits), clone (creates a copy of a remote repository on your device), commit (records the changes which were made using the git add), add (adds the made changes that to the project for the next commit), pull (gets changes from another repository and puts them into your local branch), push (sends the commits that you made to sombeody else, a.k.a remote repository) 
 
