@@ -1,3 +1,4 @@
+\usepackage{amsmath}
 Please copy the file and rename it as FirstName_LastName_Test.md. Raise a pull request with this file (with answers) added to the repository. 
 
 1. What does cold start problem mean in Machine Learning in practice? How does it examplify in book?
@@ -33,11 +34,11 @@ models?
 In deep learning frameworks, when we pass data through each successive function, the framework builds a computational graph that tracks how each value depends on others. To calculate derivatives, automatic differentiation works backwards through this graph applying the chain rule. Automatic differentiation is important because as working on calculations by hand can be difficult and you are likely to make a mistake and these issues become bigger as our models become bigger and more complex which is why it is good to automate it.
 
 8. Write the equation for a standard linear model in vector notation?
-y=XB+E
-y=Xb(beta)+e(error)
+$y=x\beta+\varepsilon$
+
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
-f(x)=\frac{1}{\sigma \sqrt{2\pi }}e^{-\frac{1}{2}}\left ( \frac{x-\mu }{\sigma } \right )^{2}
+$f(x)=\frac{1}{\sigma \sqrt{2\pi }}e^{-\frac{1}{2}}\left ( \frac{x-\mu }{\sigma } \right )^{2}$
 
 Normally distrubuted example is height in the adult population, the average height between females and males has been found to be around 175cm. However, of course there are outliars.
 
@@ -45,5 +46,5 @@ Normally distrubuted example is height in the adult population, the average heig
 The negative-log-likelihood function is used to estimate the parameters of a logistic regression model. It’s a measure of how well the model fits the data used to train it. The objective of logistic regression is to find the set of parameters that maximizes the NLL function. The negative-log-likelihood function is defined as the negative logarithm of the likelihood function. The likelihood function measures the probability of observing the training data given the model parameters. By taking the negative logarithm of the likelihood function, we convert the multiplication of probabilities into an addition of logarithms, which makes it easier to optimize using gradient descent.
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
-L(y,\hat{y})=-\sum_{i=1}^{C}y_{i}log(\hat{y_{i}})
+$L(y,\hat{y})=-\sum_{i=1}^{C}y_{i}log(\hat{y_{i}})$
 Cross-entropy is used to optimize classification models. Cross-entropy loss measures the performance of a classification model whose output is a probability value between 0 and 1. Cross-entropy loss increases as the predicted probability diverges from the actual label. It is used in the training period
