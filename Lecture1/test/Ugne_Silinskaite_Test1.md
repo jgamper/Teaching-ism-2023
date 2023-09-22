@@ -18,8 +18,8 @@ Git checkout - switching between branches, git clone - create a copy to your dev
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 The dot product is the sum of multiplied corresponding x and y. 
-\mathbf{x} \cdot \mathbf{y} = x_1 y_1 + x_2 y_2 + x_3 y_3 + \ldots + x_d y_d
-We multiple first pairs, add them to the seconds and so on for d amount of times.A more general formula would be this: \mathbf{x} \cdot \mathbf{y} = \sum_{i=1}^{d} x_i y_i
+$\mathbf{x} \cdot \mathbf{y} = x_1 y_1 + x_2 y_2 + x_3 y_3 + \ldots + x_d y_d$
+We multiple first pairs, add them to the seconds and so on for d amount of times.A more general formula would be this: \mathbf{x} \cdot \mathbf{y} = $\sum_{i=1}^{d} x_i y_i$
 This operation takes two vectors and produce one number. This number represents how alighned the vectors are or how much of them point to the same direction. 
 6. Explain what a vector norm is?
 Vector norm is the magnitude of the vector. l1 and l2 are some of the norms (functions) that measure the lenght of the vectors.
@@ -27,12 +27,12 @@ Vector norm is the magnitude of the vector. l1 and l2 are some of the norms (fun
 models?
 chain rule helps to calculate derivatives of complex functions. Optimization algorithms are crucial for AI as they are used to train neural networks. But for these optimizations, derivatives are necessary. Automatic differentiation allows to automize this work and not depend on deriving formulas manually. 
 8. Write the equation for a standard linear model in vector notation?
-\mathbf{y} = \mathbf{X}\boldsymbol{\beta} + \boldsymbol{\epsilon}
+$\mathbf{y} = \mathbf{X}\boldsymbol{\beta} + \boldsymbol{\epsilon}$
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
-f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x - \mu)^2}{2\sigma^2}}
+$f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$
 Examples of normally distributed data - IQ test scores, blood pressure results, height, weight scores.
 10. Describe what a negative log likelihood is?
 It a loss function our model optimizes. That's why we need the minus sigh. Log is to simplify the computations and likelihood shows how good our model is - hat's the propability of the observed data, given our model was correct. 
 11. Write down the formula for cross-entropy loss and explain how it is used?
-L(y, \hat{y}) = -[y \log(\hat{y}) + (1 - y) \log(1 - \hat{y})]
+$L(y, \hat{y}) = -[y \log(\hat{y}) + (1 - y) \log(1 - \hat{y})]$
 This formula is used for training the model and calculating the weights. This loss function compares predictions to actual data points with labels. The goal is to minimize this difference. When it's minimized, models are more accurate with the classification problems.
