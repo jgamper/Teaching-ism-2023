@@ -45,7 +45,7 @@ Automatic differentiation is important because it makes derivative calculations 
 
 8. Write the equation for a standard linear model in vector notation?
 
-$\mathbf{y} = \mathbf{X} \mathbf{w}^\top\ + b$
+$\mathbf{y} = \mathbf{X}^\top \mathbf{w} + b$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
