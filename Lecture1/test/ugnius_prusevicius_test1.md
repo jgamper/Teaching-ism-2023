@@ -62,10 +62,9 @@ $\mathbf{y} = \mathbf{x}\mathbf{\beta} + \epsilon$
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
 **Answer 9**:
-$\documentclass{Normal Distribution formula:}
-\begin{document}
-\[ f(x|\mu ,\sigma^2)=\frac{1}{\sigma}\varphi\left(\frac{x-\mu}{\sigma}\right) \]
-\end{document}$
+The formula - $\[ f(x|\mu ,\sigma^2)=\frac{1}{\sigma}\varphi\left(\frac{x-\mu}{\sigma}\right)]$
+- A normally distributed data could be height of a certain age group of certain population group,
+- general IQ test scores of hummanity, meaning that there is a tendency of a normal distribution meaning there are few variants of less or more than average IQ score
 
 10. Describe what a negative log likelihood is?
 
