@@ -30,7 +30,7 @@ Most often used commands: checkout (switches between branches or commits), clone
 
 The dot product of these two vectors is the sum over products of the elements (in the x and y vectors) at the same position. 
 
-\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_i y_i
+$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_i y_i
 
 6. Explain what a vector norm is? 
 
