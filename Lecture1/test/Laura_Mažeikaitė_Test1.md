@@ -69,6 +69,7 @@ It is a loss function used in optimization. Because optimizations are often expr
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
 
+
 $$l(\mathbf{y}, \mathbf{\hat{y}}) = - \sum_{j=1}^{q} y_j \log(\hat{y}_j)$$
 
 It measures the performance of classification model and is used during training when adjusting weights of the model, aiming to mimize the loss. Cross-entropy loss measures the difference between predicted probability distribution and the actual one, so the goal is to reduce it.  
