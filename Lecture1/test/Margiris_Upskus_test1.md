@@ -30,6 +30,7 @@ Please copy the file and rename it as FirstName_LastName_Test.md. Raise a pull r
 models?
 
 -Chain rule tells us how to find the derivative of a composite function. Automatic differentiation is important because is is a powerful tool to automate the calculation of derivatives and is preferable when differentiating complex algorithms and mathematical functions. AD can be helpful by quickly computing gradients in relation to hyperparameters, allowing for automatic hyperparameter tweaking.
+
 8. Write the equation for a standard linear model in vector notation?
 
 -y = Xβ + ε
@@ -38,9 +39,11 @@ models?
 
 -f(x | μ, σ²) = (1 / (σ√(2π))) * exp(-((x - μ)² / (2σ²)))
 Examples: test scores, income, human body temperature, sales.
+
 10. Describe what a negative log likelihood is?
 
 -A concept used in statistics, ML to quantify how well a statistical model or probability distribution fits observed data. Finding model parameters that reduce this cost, or in other words, finding the parameters that maximize the probability of the observed data, is the objective when the log-likelihood is negated.
+
 11. Write down the formula for cross-entropy loss and explain how it is used?
 
 -H(y, p) = -Σ [yᵢ * log(pᵢ) + (1 - yᵢ) * log(1 - pᵢ)]. It is used in classification problems. It quantifies the dissimilarity between predicted probabilities and true labels and is used for model training and evaluation. 
