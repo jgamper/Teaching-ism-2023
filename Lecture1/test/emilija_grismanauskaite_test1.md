@@ -23,6 +23,8 @@ Git commands:
     5. git push - pushes your commits to a remote repository, to keep the changes.
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
+$\mathbf{x}^\top\mathbf{y} = \sum_{i=1}^{d} x_iy_i$
+Also known as the inner or scalar product, the dot product shows if the two vectors are going to the same direction or not. It gives a way to measure the similarity in direction or allignment between two vectors. 
 
 6. Explain what a vector norm is?
 It is kind of measure to know how big or small the vectors is and there are different norms of vectors. In the reading there were mentioned mostly two - Manhattan Norm and Euclidean distance norm. The Manhattan norm measures vector in the space of grid - you can only measure it going along the lines and with Eucliden distance - it is the smallest possible distance. 
@@ -32,9 +34,13 @@ models?
 Without the chain rule it would be quite difficult, because we are working with deeply nested functions and chain rule allows us to break down the computation of derivatives into the series of elementary operations. Moreover, the chain rule allows deep learning models to learn from data by adjusting their parameters and minimizing a loss function.
 
 8. Write the equation for a standard linear model in vector notation?
+$\mathbf{y} = \mathbf{X}\mathbf{\beta} + \mathbf{\varepsilon}$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
+$f(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$
+The examples could maybe be the heights and weights of the population, exam scores maybe. 
 
 10. Describe what a negative log likelihood is?
+Likelihood is how well the model explains given data and the logarithm can be used to simplify information and make it easier to use and interpret. So the negative log likelihood is the negative measure of how well the model explains statistics, given that the data is logarithmic. Also, minimizing this measure means finding the best parameters that can explain the data in the best possible way. 
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
