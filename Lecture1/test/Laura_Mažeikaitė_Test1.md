@@ -44,7 +44,7 @@ $$\mathbf{x}^\top\mathbf{y} = \sum_{i=1}^{d} x_iy_i$$
 Vector norm is a size of the vector. It maps a vector to a scalar and satisfies 3 properties:
 1 if all elements of the vector are scaled by a scalar, its norm scales accordingly;
 2 norms satisfy the triangle inequality;
-3 the norm it is non-negative and vanishes if the vector is zero.
+3 the norm is non-negative and vanishes if the vector is zero.
 
 
 7. What role does chain rule play in automatic differentiation? Why automatic differentiation is important for modern AI
