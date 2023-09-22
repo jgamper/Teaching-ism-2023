@@ -30,7 +30,7 @@ Most often used commands: checkout (switches between branches or commits), clone
 
 The dot product of these two vectors is the sum over products of the elements (in the x and y vectors) at the same position. 
 
-$$\mathbf{x}^T \mathbf{y} = \sum_{i=1}^{d} x_iy_i$$
+$$\mathbf{x}^\top \mathbf{y} = \sum_{i=1}^{d} x_iy_i$$
 
 6. Explain what a vector norm is? 
 
@@ -45,7 +45,7 @@ Automatic differentiation is important because it makes derivative calculations 
 
 8. Write the equation for a standard linear model in vector notation?
 
-$\mathbf{y} = \mathbf{X} \mathbf{w} + b$
+$\mathbf{y} = \mathbf{X} \mathbf{w}^\top\ + b$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
