@@ -19,8 +19,8 @@ Please copy the file and rename it as FirstName_LastName_Test.md. Raise a pull r
 
 Let's say the most basic example:
  **Running Instagram ads for my company**
-    - Metric - **Click Through Rate**
-    - Business metric - **company's revenue**
+- Metric - **Click Through Rate**
+- Business metric - **company's revenue**
 There may have been observed of more **clicks** on the launched ads through Instagram, but this would not neccesarily reflect in the **company's revenue**. Meaning that there would be no correlation between these two things.
 
 
@@ -28,13 +28,13 @@ There may have been observed of more **clicks** on the launched ads through Inst
 
 **Answer 4**: Git is a version control system that tracks changes in computers files during development.
 **Most often used commands**:
-    - git clone + repository - creates a copy of the wanted depository on your system
-    - git init - initializes new repository in the current directory
-    - git add + file - stages changes to be commited in a file
-    - git checkout + branch name - switches to a different kind of branch
-    - git merge + branch name - combines changes from one to the other
-    - git commit -m - records the made changes (adds a name also)
-    -git push - puts the local repository to the remote one.
+- git clone + repository - creates a copy of the wanted depository on your system
+- git init - initializes new repository in the current directory
+- git add + file - stages changes to be commited in a file
+- git checkout + branch name - switches to a different kind of branch
+- git merge + branch name - combines changes from one to the other
+- git commit -m - records the made changes (adds a name also)
+-git push - puts the local repository to the remote one.
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 
@@ -61,12 +61,18 @@ $\mathbf{y} = \mathbf{x}\mathbf{\beta} + \epsilon$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
-**Answer 9**: 
-f(x | μ, σ^2) = (1 / (σ√(2π))) * exp(-(x - μ)^2 / (2σ^2))
-
+**Answer 9**:
+$\documentclass{Normal Distribution formula:}
+\begin{document}
+\[ f(x|\mu ,\sigma^2)=\frac{1}{\sigma}\varphi\left(\frac{x-\mu}{\sigma}\right) \]
+\end{document}$
 
 10. Describe what a negative log likelihood is?
 
 **Answer 10**: A type of metric that measures how well models predicted probabilities match with the real outcome. Basically a way to see the performance of probabilistic models.
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
+
+**Answer 11**: 
+$-\sum_{c=1}^My_{o,c}\log(p_{o,c})$
+It is used in the training period of a model, seeing how it performs and by the formula, adjusting the weights of the model.
