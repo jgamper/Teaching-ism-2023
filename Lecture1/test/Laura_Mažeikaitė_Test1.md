@@ -10,9 +10,9 @@ The most reliable way to demonstrate a return on invesment in A|B experimentatio
 
 3. What are the 4 reasons for lack of correlation between offline performance gain and business value gain? Make up a hypothetical example - name concrete offline metrics, and business metrics. 
 
-1 Value performance saturation (there are business problems for which it is not possible to indefinitely drive value from model performance gains)
-2 Segment saturation (disagreement rate goes down as models improve on each other, leading to a reduction in the user population which is exposed to a treatment, and the power to detect value gains)
-3 Uncanny Valley effect (improving models can result in a negative effect on value due to people not always reacting positively to accurate predictions about them)
+1 Value performance saturation (there are business problems for which it is not possible to indefinitely drive value from model performance gains);
+2 Segment saturation (disagreement rate goes down as models improve on each other, leading to a reduction in the user population which is exposed to a treatment, and the power to detect value gains);
+3 Uncanny Valley effect (improving models can result in a negative effect on value due to people not always reacting positively to accurate predictions about them);
 4 Proxy over-optimization (proxies that are over-optimizing can distract users away from their goal) 
 
 Example: improving the performance of the model (which can be, e.g., evaluated by Mean Reciprocal Rank) does not necessarily lead to business value gain (e.g., improvement in such business metrics as conversion rate). For instance, an online platform with recommender system, ranking the most relevant products at the top of the recommendation list, with a goal to increase conversion rates by providing personalized recommendations to the users. The model’s performance can be improved by improving the ranking and Mean Reciprocal Rank metric, but that will not necessarily lead to business gain. It might be the case that users click on products recommended to them but not purchase them. Customers might care about other factors, not addressed by improvements in Mean Reciprocal Rank (e.g., pricing, etc.)
@@ -21,16 +21,16 @@ Example: improving the performance of the model (which can be, e.g., evaluated b
 4. What is git? Describe the most often used git commands?
 
 Git is an open source, free distributed version control system that tracks changes in computer files and is used for managing source code in software development projects. 
-git config: allows to specify email and username that will be used with the commits
-git init: can be used to create a new Git repository
-git clone: dowloads existing source code from a remote repository
-git status: provides information about current branch
-git add: includes changes of files into the next commit
-git commit: saves changes locally
-git push: uploads commits to the remote repository
-git branch: can be used for creating, listing, and deleting branches
-git checkout: can be used to switch from one branch to another
-git pull: can be used to pull recent changes from remote server into local repository
+git config: allows to specify email and username that will be used with the commits;
+git init: can be used to create a new Git repository;
+git clone: dowloads existing source code from a remote repository;
+git status: provides information about current branch;
+git add: includes changes of files into the next commit;
+git commit: saves changes locally;
+git push: uploads commits to the remote repository;
+git branch: can be used for creating, listing, and deleting branches;
+git checkout: can be used to switch from one branch to another;
+git pull: can be used to pull recent changes from remote server into local repository;
 git merge: merges the branch with the parent branch.
 
 
@@ -42,9 +42,9 @@ $$\mathbf{x}^\top\mathbf{y} = \sum_{i=1}^{d} x_iy_i$$
 6. Explain what a vector norm is?
 
 Vector norm is a size of the vector. It maps a vector to a scalar and satisfies 3 properties:
-1 if all elements of the vector are scaled by a scalar, its norm scales accordingly
-2 norms satisfy the triangle inequality
-3 the norm it is non-negative and vanishes if the vector is zero
+1 if all elements of the vector are scaled by a scalar, its norm scales accordingly;
+2 norms satisfy the triangle inequality;
+3 the norm it is non-negative and vanishes if the vector is zero;
 
 
 7. What role does chain rule play in automatic differentiation? Why automatic differentiation is important for modern AI
