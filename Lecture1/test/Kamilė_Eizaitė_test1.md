@@ -124,4 +124,3 @@ A crucial tool in statistics and machine learning is the negative log likelihood
 
 $$l(y, \hat{y}) = - \sum_{j=1}^{q} y_j \log(\hat{y}_j)$$
 The cross-entropy loss is used in machine learning to measure how good our predictions are when we're trying to classify things into different categories, like sorting emails into "spam" or "not spam." So, lower loss means better predictions.
-
