@@ -19,7 +19,7 @@ Git checkout - switching between branches, git clone - create a copy to your dev
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 The dot product is the sum of multiplied corresponding x and y. 
 $\mathbf{x} \cdot \mathbf{y} = x_1 y_1 + x_2 y_2 + x_3 y_3 + \ldots + x_d y_d$
-We multiple first pairs, add them to the seconds and so on for d amount of times.A more general formula would be this: \mathbf{x} \cdot \mathbf{y} = $\sum_{i=1}^{d} x_i y_i$
+We multiple first pairs, add them to the seconds and so on for d amount of times.A more general formula would be this: $\mathbf{x} \cdot \mathbf{y} = \sum_{i=1}^{d} x_i y_i$
 This operation takes two vectors and produce one number. This number represents how alighned the vectors are or how much of them point to the same direction. 
 6. Explain what a vector norm is?
 Vector norm is the magnitude of the vector. l1 and l2 are some of the norms (functions) that measure the lenght of the vectors.
