@@ -39,7 +39,7 @@ git branch - allows to list, create, delete and manage branches.
 
 5. Given two vectors $\mathbf{x}$, $\mathbf{y}$ $\in \mathcal{R}^{d}$, describe in words and equations what their dot product means?
 
-$\mathbf{x} \cdot \mathbf{y} = \sum_{i=1}^{d} x_i y_i$
+$$\mathbf{x} \cdot \mathbf{y} = \sum_{i=1}^{d} x_i y_i$$
 
 
 The dot product is a mathematical operation that combines these vectors in a way that measures how similar they are in direction. In other words, it quantifies the degree to which the vectors align with each other.
