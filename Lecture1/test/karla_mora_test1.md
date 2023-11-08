@@ -26,11 +26,11 @@ models?
 The chain rule holds a pivotal position in calculus. It serves as a foundational principle that enables us to find the derivative of a complex function by dissecting it into smaller, more manageable parts. Automatic differentiation emerges as a crucial tool in contemporary AI models due to its efficiency in computing these derivatives. It not only speeds up research and development but also simplifies the process of obtaining gradients, which are vital for training and optimizing AI algorithms.
 
 8. Write the equation for a standard linear model in vector notation?
-$\f(x) = X *  +  $
+$$\hat{y} = \mathbf{w}^\top\mathbf{x} + b$$
 
 9. Write a formula for the normal distribution? Give examples of what may be normally distributed data? 
 
-$\f(x | μ, σ^2) = (1 / (σ√(2π))) * e^(-((x - μ)^2) / (2σ^2))$
+$f(x) = \frac{1}{σ\sqrt{2\pi}} e^{-\frac{(x - μ)^2}{2σ^2}}\$
 Exam Scores: The distribution of scores in a well-designed test, where the test is not too easy or too hard, may approximate a normal distribution.
 
 
@@ -38,7 +38,7 @@ Exam Scores: The distribution of scores in a well-designed test, where the test 
  the negative log-likelihood measures how well a model's parameter values explain observed data. Minimizing the negative log-likelihood helps us find the best-fitting parameters for the model. 
 
 11. Write down the formula for cross-entropy loss and explain how it is used?
-$\L(y, y') = - ∑ (y_i * log(y'_i))$
+$$l(\mathbf{y}, \mathbf{\hat{y}}) = - \sum_{j=1}^{q} y_j \log(\hat{y}_j)$$
 
 
 
